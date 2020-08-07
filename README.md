@@ -1,6 +1,4 @@
 # Val Front-End
-![](https://img.shields.io/github/license/caue-alves/Val-Front-End)
-![](https://img.shields.io/github/languages/top/caue-alves/Val-Front-End)
 ![](https://img.shields.io/github/contributors/Val-Assistant/Val-Front-End)
 
 Front-End do repositório [Val](https://github.com/caue-alves/Val-Assitente-Pessoal). Acesse-o para ver o repositório completo
