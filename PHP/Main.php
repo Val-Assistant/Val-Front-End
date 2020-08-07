@@ -20,20 +20,26 @@ try {
         <meta charset="UTF-8">
     </head>
     <header>
-        <img class="head" src="1596229204115.png" href="home.html">
+        <img class="head" src="https://github.com/Val-Assistant/Val-Core/blob/master/Front-End/pic/20200805_142610.jpg?raw=true" href="home.html">
         <li><a href = "https://github.com/caue-alves/Assitente-Pessoal">Repositório no GitHub</a></li>
         <li><a href = "home.html">Home</a></li>
         <li><a href = "Main.php">Assitente</a></li>
+        <script src="Main.js"></script>
     </header>
-    <div class = header>
-        <p><?php echo "<p id=titulo >$Json_val</p>"?><p>
-    </div>
     <main>
-    <div class = "div">
-        <form action="text.php" method=get>
-            <input type=text name=nome id="name" placeholder="Digite aqui seu comando:"><br>
-            <input type=submit id="but">
-        </form>
-    </div>
+        <div class = "all-content" style="overflow-y: auto;">
+            <nav class = msg id="msg">
+                <?php echo "<p id=titulo >Val: $Json_val</p>"?>
+                <div class="return">  
+                </div>
+            </nav>
+            <div class = "div">
+                <iframe name="input" style="display:none;"></iframe>
+                <form action="text.php" method=get target="input">
+                    <input type=text name=nome id="name" placeholder="Digite aqui seu comando:"><br>
+                    <input type=submit id="but" onclick="capturar()">
+                </form>
+            </div>
+        </div>
     </main>
 </html>
