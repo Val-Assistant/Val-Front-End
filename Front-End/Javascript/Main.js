@@ -1,6 +1,6 @@
 var capturando = "";
-var msg = ""
-var nova_div = document.createElement("div")
+var msg = "";
+var nova_div = document.createElement("div");
 
 function capturar () {
     var mbox = document.querySelector(".return");
